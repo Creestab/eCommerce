@@ -1,6 +1,12 @@
 ul.dropdown-cart{
     min-width:250px;
 }
+li.dropdown a {
+
+}
+li.dropdown:hover {
+  background-color: red;
+}
 ul.dropdown-cart li .item{
     display:block;
     padding:3px 10px;

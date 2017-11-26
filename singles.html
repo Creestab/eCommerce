@@ -33,115 +33,462 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Terra TCG</a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Terra TCG</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a href="singles.html">Singles</a>
+                  </li>
+                  <li>
+                      <a href="sealed.html">Sealed</a>
+                  </li>
+                  <li>
+                      <a href="merch.html">Merch</a>
+                  </li>
+                  <li>
+                      <a href="about.html">About</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">Contact</a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-cart" role="menu">
+                      <li>
+                        <a href="cart.html">
+                        <span class="item">
+                          <span class="item-left">
+                            <img src="assets/Game Board.jpg" alt="" />
+                            <span class="item-info">
+                              <span>Game Board</span>
+                              <span>14.99$</span>
+                            </span>
+                          </span>
+                          <span class="item-right">
+                            <button class="btn btn-xs btn-danger pull-right">x</button>
+                          </span>
+                        </span>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="cart.html">
+                        <span class="item">
+                          <span class="item-left">
+                            <img src="assets/Energy Strip.jpg" alt="" />
+                            <span class="item-info">
+                              <span>Energy Strip x5</span>
+                              <span>4.99$</span>
+                            </span>
+                          </span>
+                          <span class="item-right">
+                            <button class="btn btn-xs btn-danger pull-right">x</button>
+                          </span>
+                        </span>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="cart.html">
+                        <span class="item">
+                          <span class="item-left">
+                            <img src="assets/Crown of Atlantis.jpg" alt="" />
+                            <span class="item-info">
+                              <span>Crown of Atlantis</span>
+                              <span>35.50$</span>
+                            </span>
+                          </span>
+                          <span class="item-right">
+                            <button class="btn btn-xs btn-danger pull-right">x</button>
+                          </span>
+                        </span>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="cart.html">
+                        <span class="item">
+                          <span class="item-left">
+                            <img src="assets/To Dust.jpg" alt="" />
+                            <span class="item-info">
+                              <span>To Dust</span>
+                              <span>3.79$</span>
+                            </span>
+                          </span>
+                          <span class="item-right">
+                            <button class="btn btn-xs btn-danger pull-right">x</button>
+                          </span>
+                        </span>
+                      </a>
+                      </li>
+                      <li class="divider"></li>
+                      <li><a class="text-center" href="cart.html">View Cart</a></li>
+                    </ul>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+
+    <div class="container">
+<div class="row">
+    <!-- BEGIN PRODUCTS -->
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Academy Sentinel.jpg" alt="...">
+          <h4>Academy Sentinel</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$1.50</p>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="singles.html">Singles</a>
-                    </li>
-                    <li>
-                        <a href="sealed.html">Sealed</a>
-                    </li>
-                    <li>
-                        <a href="merch.html">Merch</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
-                      <ul class="dropdown-menu dropdown-cart" role="menu">
-                        <li>
-                          <a href="#">
-                          </hgroup>
-                          <span class="item">
-                            <span class="item-left">
-                              <img src="http://lorempixel.com/50/50/" alt="" />
-                              <span class="item-info">
-                                <span>Item name</span>
-                                <span>23$</span>
-                              </span>
-                            </span>
-                            <span class="item-right">
-                              <button class="btn btn-xs btn-danger pull-right">x</button>
-                            </span>
-                          </span>
-                        </a>
-                        </li>
-                        <li>
-                          <span class="item">
-                            <span class="item-left">
-                              <img src="http://lorempixel.com/50/50/" alt="" />
-                              <span class="item-info">
-                                <span>Item name</span>
-                                <span>23$</span>
-                              </span>
-                            </span>
-                            <span class="item-right">
-                              <button class="btn btn-xs btn-danger pull-right">x</button>
-                            </span>
-                          </span>
-                        </li>
-                        <li>
-                          <span class="item">
-                            <span class="item-left">
-                              <img src="http://lorempixel.com/50/50/" alt="" />
-                              <span class="item-info">
-                                <span>Item name</span>
-                                <span>23$</span>
-                              </span>
-                            </span>
-                            <span class="item-right">
-                              <button class="btn btn-xs btn-danger pull-right">x</button>
-                            </span>
-                          </span>
-                        </li>
-                        <li>
-                          <span class="item">
-                            <span class="item-left">
-                              <img src="http://lorempixel.com/50/50/" alt="" />
-                              <span class="item-info">
-                                <span>Item name</span>
-                                <span>23$</span>
-                              </span>
-                            </span>
-                            <span class="item-right">
-                              <button class="btn btn-xs btn-danger pull-right">x</button>
-                            </span>
-                          </span>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a class="text-center" href="cart.html">View Cart</a></li>
-                      </ul>
-                    </li>
-                </ul>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Atlantis, Sinking City.jpg" alt="...">
+          <h4>Atlantis, Sinking City</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$65.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Aya, Rain of Renewal.jpg" alt="...">
+          <h4>Aya, Rain of Renewal</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$8.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Barrage.jpg" alt="...">
+          <h4>Barrage</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$0.70</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <!-- END PRODUCTS -->
+</div>
+<div class="row">
+    <!-- BEGIN PRODUCTS -->
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Blinding Sandstorm.jpg" alt="...">
+          <h4>Blinding Sandstorm</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$2.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Brain Geyser.jpg" alt="...">
+          <h4>Brain Geyser</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$11.50</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Crop Farm.jpg" alt="...">
+          <h4>Crop Farm</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$1.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Crown of Atlantis.jpg" alt="...">
+          <h4>Crown of Atlantis</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$35.50</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <!-- END PRODUCTS -->
+</div>
+<div class="row">
+    <!-- BEGIN PRODUCTS -->
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Cthi ha, the Sandstriped.jpg" alt="...">
+          <h4>Cthi Ha, the Sandstriped</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$4.15</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Cyclical Enrollment.jpg" alt="...">
+          <h4>Cyclical Enrollment</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$6.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Firestorm.jpg" alt="...">
+          <h4>Firestorm</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$0.42</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Flame Titan.jpg" alt="...">
+          <h4>Flame Titan</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$0.80</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <!-- END PRODUCTS -->
+</div>
+<div class="row">
+    <!-- BEGIN PRODUCTS -->
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Harr, Barren Treader.jpg" alt="...">
+          <h4>Harr, Barren Treader</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$16.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Manapools.jpg" alt="...">
+          <h4>Manapools</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$1.30</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Mirrorpool Shield.jpg" alt="...">
+          <h4>Mirrorpool Shield</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$3.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Monk of the Forked Path.jpg" alt="...">
+          <h4>Monk of the Forked Path</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$20.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <!-- END PRODUCTS -->
+</div>
+<div class="row">
+    <!-- BEGIN PRODUCTS -->
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Pacify.jpg" alt="...">
+          <h4>Pacify</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$0.50</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Silken Plains.jpg" alt="...">
+          <h4>Silken Plains</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$3.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/Sunderthorn, Primal Blade.jpg" alt="...">
+          <h4>Sunderthorn, Primal Bladel</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$5.00</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <span class="thumbnail">
+          <img class="product" src="assets/To Dust.jpg" alt="...">
+          <h4>To Dust</h4>
+          <hr class="line">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <p class="price">$3.79</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <button class="btn btn-success right" > BUY ITEM</button>
+            </div>
+
+          </div>
+      </span>
+    </div>
+    <!-- END PRODUCTS -->
+</div>
+</div>
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; TerraTCG 2014</p>
                 </div>
             </div>
         </footer>

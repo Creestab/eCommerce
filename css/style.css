@@ -1,8 +1,28 @@
+body{
+  background-color: #DBA16B;
+  color: #000000;
+}
+nav.navbar{
+  background-color: #000000;
+}
+nav.navbar a{
+  color: #CAC8C8; //an attempt to change the navbar font color. Didn't work.
+}
+nav.navbar a:hover{
+  color: #ffffff; //an attempt to change the navbar font color. Didn't work.
+}
+span.thumbnail{
+  min-height: 440px;
+}
+li.dropdown span{
+  color: #464646;
+}
 ul.dropdown-cart{
     min-width:250px;
 }
-li.dropdown a {
-
+li.dropdown-cart a {
+  width: 95%;
+  align-items: center;
 }
 li.dropdown:hover {
   background-color: red;
@@ -27,7 +47,11 @@ ul.dropdown-cart li .item:after{
 ul.dropdown-cart li .item-left{
     float:left;
 }
-ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left img{
+    float:left;
+    max-height: 40px;
+    max-width: 40px;
+}
 ul.dropdown-cart li .item-left span.item-info{
     float:left;
 }
@@ -42,4 +66,61 @@ ul.dropdown-cart li .item-right{
 }
 ul.dropdown-cart li .item-right button{
     margin-top:14px;
+}
+div.container div.row{
+  margin-top: 25px;
+}
+div.media{
+  display: inline-block;
+  align-items: flex-start;
+}
+div.panel-body{
+  height: 120px;
+}
+div.well div.row div.col-md-8 p{
+  font-size: 18px;
+}
+a.thumbnail_pull-left img.media-object{
+  float: left;
+  max-width: 72px;
+  max-height: 72px;
+  padding-right: 10px;
+}
+h4{
+  text-align: center;
+  font-weight: 600;
+}
+p{
+  font-size: 12px;
+  margin-top: 5px;
+}
+footer{
+  text-align: center;
+}
+.price{
+  font-size: 30px;
+  margin: 0 auto;
+  color: #333;
+}
+.right{
+  float:right;
+  border-bottom: 2px solid #4B8E4B;
+}
+.thumbnail{
+  opacity:0.70;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.thumbnail:hover{
+  opacity:1.00;
+  box-shadow: 0px 0px 10px #4bc6ff;
+}
+.line{
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 770px) {
+  .right{
+    float:left;
+    width: 100%;
+  }
 }
